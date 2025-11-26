@@ -1,0 +1,12 @@
+termux-setup-storage
+pkg update && pkg upgrade -y
+pkg install python -y
+pkg install python-pip -y
+pip install requests psutil PyJWT protobuf urllib3 pytz aiohttp cfonts protobuf-decoder google
+pip install pycryptodome
+pip install --upgrade protobuf
+pip install cfonts
+pip install httpx
+pip install requests
+pip install urllib3
+pip install psutil
